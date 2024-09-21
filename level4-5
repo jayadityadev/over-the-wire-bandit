@@ -1,0 +1,9 @@
+ssh -p 2220 bandit5@bandit.labs.overthewire.org
+
+# Files with pattern `-file00 upto -file01` existing in `~/inhere`
+# Since dashed filename, so use foreslash (or absolute path)
+# `file ./*` to reveal file types of all files
+# `cat ./-file07` as its the only human-readable file
+
+# user: bandit5
+# pass: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw

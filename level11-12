@@ -1,0 +1,8 @@
+ssh -p 2220 bandit12@bandit.labs.overthewire.org
+
+# File 'data.txt' present in home directory containing ROT13 cyphered text
+# Use `cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'` to decrypt
+
+
+# user: bandit12
+# pass: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4

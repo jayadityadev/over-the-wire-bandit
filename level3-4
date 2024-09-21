@@ -1,0 +1,8 @@
+ssh -p 2220 bandit4@bandit.labs.overthewire.org
+
+# Hidden file `...Hiding-From-You` in `~/inhere/` directory containing the password
+# `ls -a` to reveal the hidden directories and files
+# cat ...Hiding-From-You
+
+# user: bandit4
+# pass: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ

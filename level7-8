@@ -1,0 +1,9 @@
+ssh -p 2220 bandit8@bandit.labs.overthewire.org
+
+# File 'data.txt' present in home directory containing `98567 lines`
+# Password next to the word 'millionth'
+# Use `strings data.txt | grep millionth` to fetch the password
+
+
+# user: bandit8
+# pass: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc

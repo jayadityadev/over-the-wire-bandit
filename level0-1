@@ -1,0 +1,6 @@
+ssh -p 2220 bandit1@bandit.labs.overthewire.org
+
+# File named `readme` in home directory containing the password
+
+# user: bandit1
+# pass: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If

@@ -1,0 +1,8 @@
+ssh -p 2220 bandit11@bandit.labs.overthewire.org
+
+# File 'data.txt' present in home directory containing base64 text
+# Use `cat data.txt | base64 -d` to decrypt
+
+
+# user: bandit11
+# pass: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr

@@ -1,0 +1,9 @@
+ssh -p 2220 bandit6@bandit.labs.overthewire.org
+
+# File hidden somewhere in multiple folders within `~/inhere/` directories
+# Given properties of required files: 1033 bytes, human-readable, not executable
+# Use `find ~/inhere/ -size 1033c ! -executable` to fetch the required file
+# `cat /home/bandit5/inhere/maybehere07/.file2`
+
+# user: bandit6
+# pass: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG

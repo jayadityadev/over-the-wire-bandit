@@ -1,0 +1,9 @@
+ssh -p 2220 bandit9@bandit.labs.overthewire.org
+
+# File 'data.txt' present in home directory containing `1001 lines`
+# Password in `data.txt`, only line of text that occurs only once
+# Use `sort data.txt | uniq -u` to fetch the result
+
+
+# user: bandit9
+# pass: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM

@@ -1,0 +1,10 @@
+ssh -p 2220 bandit10@bandit.labs.overthewire.org
+
+# File 'data.txt' present in home directory containing `73 lines`
+# Password in `data.txt`, one of the few human-readable strings, preceded by several ‘=’ characters
+# Use `strings data.txt | grep ==` to fetch the matching strings
+# Found: passwordf, isc, FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+# `FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey` appears to be correct password
+
+# user: bandit10
+# pass: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
