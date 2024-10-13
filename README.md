@@ -16,8 +16,8 @@ There is no such directory structure. Each level's notes/solutions is written in
 
 1. Clone the repo:
     ```bash
-    git clone https://github.com/yourusername/overthewire-bandit-progress.git
-    cd overthewire-bandit-progress
+    git clone https://github.com/jayadityadev/over-the-wire-bandit.git
+    cd over-the-wire-bandit
     ```
 
 2. Just cat out / open up the respective level's file.
