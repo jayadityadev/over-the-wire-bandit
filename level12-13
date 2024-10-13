@@ -1,8 +1,21 @@
 ssh -p 2220 bandit13@bandit.labs.overthewire.org
 
 # File 'data.txt' present in home directory containing hexdump of a file
-# Use `cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'` to decrypt
+# Starting bytes of the hexdump - 1f8b represents it's a gz compressed file (https://en.wikipedia.org/wiki/List_of_file_signatures)
+# `cd /tmp`, `mktemp -d`, cd to the created directory (in order to work with extracted files)
+# `xxd -r hexdump_data compressed_data` in order to revert back to archive file
+# (At this stage, using `file` command also states that it's a gz compressed file)
+# `mv compressed_data compressed_data.gz` for gzip to recognise the file
+# `gzip -d compressed_data.gz` -> extracts a bzip2 compressed file
+# `bzip2 -d compressed_data` -> gives a 'compressed_data.out' which is a gzip compressed file
+# `mv compressed_data.out compressed_data.out.gz && gzip -d compressed_data.out.gz`
+# A 'compressed_data.out' is obtained which is a tar archive
+# `tar -xf compressed_data.out` -> results in a 'data5.bin' which is again a tar archive
+# `tar -xf data5.bin` -> resuts in a 'data6.bin' which is a bzip2 archive
+# `bzip2 -d data6.bin` -> results in a 'data6.bin.out' which is a again a tar archive
+# `tar -xf data6.bin.out` -> results in a 'data8.bin' which is a gzip archive
+# `mv data8.bin data8.bin.gz && gzip -d data8.bin.gz` -> results in a 'data8.bin' ASCII file containing the password
 
 
-# user: bandit12
-# pass: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+# user: bandit13
+# pass: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn

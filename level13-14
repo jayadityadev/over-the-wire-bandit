@@ -1,0 +1,9 @@
+ssh -p 2220 bandit14@bandit.labs.overthewire.org
+
+# File 'sshkey.private' in bandit13's home directory, most likely of bandit14
+# `ssh -i sshkey.private -p 2220 bandit14@localhost` -> login successful
+# Password for bandit15 stored in '/etc/bandit_pass/bandit14'
+
+
+# user: bandit14
+# pass: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
