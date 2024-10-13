@@ -43,7 +43,7 @@ There is no such directory structure. Each level's notes/solutions is written in
 - [x] Level 10-11
 - [x] Level 11-12
 - [x] Level 12-13
-- [ ] Level 13-14
+- [x] Level 13-14
 - [ ] Level 14-15
 - [ ] Level 15-16
 - [ ] Level 16-17
